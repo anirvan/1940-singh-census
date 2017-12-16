@@ -71,3 +71,11 @@ The `1940_singh_census_with_geodata.json` file also contains extended geodata fo
 * `censusLocationGeocodedData`: OpenStreetMap data for `censusLocationCleaned`
 
 Almost every location in the dataset contains this geocoded data, except for two cases where a person's birthplace is "[West Indies](https://en.wikipedia.org/wiki/West_Indies)," a location OpenStreetMap can't seem to resolve. (Maybe I should have resolved that to "Haiti" and just called it a day?)
+
+# Citation
+
+While the main dataset is in the public domain, you're encouraged to cite the source. For example:
+
+> Chatterjee, Anirvan. (2017). _1940 Singh Census_. Retrieved from https://github.com/anirvan/1940-singh-census.
+
+If you're using the OpenStreetMap geodata, they [ask for a credit](https://www.openstreetmap.org/copyright).
