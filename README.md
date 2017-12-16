@@ -17,22 +17,26 @@ There are two versions of this data, both encoded as standard JSON:
 {
    "age" : "19",
    "birthPlace" : "Oklahoma, United States",
-   "birthPlaceCleaned" : "Oklahoma, United States",
+   "birthPlaceNormalized" : "Oklahoma, United States",
    "birthYearApprox" : 1921,
    "censusLocation" : "Sup D 3, Maricopa County, Arizona, United States",
-   "censusLocationCleaned" : "Maricopa County, Arizona, United States",
+   "censusLocationNormalized" : "Maricopa County, Arizona, United States",
    "children" : [
       "Karlena",
       "Jerry"
    ],
+   "gender" : "Female",
    "identifier" : "urn:uuid:5B2CC64F-0DE6-39F4-845A-3640B23D7BEA",
    "inferredGroups" : [
       "non-South Asian wife"
    ],
+   "maritalStatus" : "Married",
    "name" : "Mildred Singh",
+   "raceRecorded" : "White",
+   "raceRecordedNormalized" : "White",
    "relationshipToHead" : "Wife",
    "spouse" : "Rala Singh"
-}
+},
 ```
 
 ## Data dictionary
@@ -42,13 +46,18 @@ There are two versions of this data, both encoded as standard JSON:
 These fields are in the public domain. All of them come straight out of the U.S. Census, except those specified where I did additional cleanup and tagging work.
 
 * `name`: name
-* `parents`: names of parents (father's name typically precedes mother's)
+* `gender`: either "Male" or "Female"
+* `maritalStatus`: either "Single", "Married", "Widowed", or "Divorced"
+* `spouse`: name of spouse (in some cases, that spouse will also be in the dataset; look for a person with that name in the same censusLocation)
+* `relationshipToHead`: relationship to the census head of household, e.g. "boarder," "son" (there are 44 different statuses!)
+* `parents`: names of parents, father's name typically preceding mother's (in some cases, the parents will also be in the dataset; look for a person with that name in the same censusLocation)
 * `siblings`: names of siblings
-* `relationshipToHead`: relationship to the census head of household, e.g. "boarder," "son"
+* `raceRecorded`: how the census taker recorded their race, often includes abbreviations, e.g. "White", "Black", "Hin", "H"
+* `raceRecordedNormalized`: my normalized version of the race (e.g. I turn "H", "Hi", and "Hin" into "Hindoo")
 * `age`: age as of the date of the 1940 census, either an integer string like "21", or "<1" for children under 1 year of age
 * `birthYearApprox`: approximate birth year (calculated as the age subtracted from 1940)
 * `birthPlace`: the birthplace listed in the census, most often a country or US state, e.g. "India", "California, United States", "Sri Lanka", "Asia", "West Indian" (sic), "Inida" (sic)
-* `birthPlaceCleaned`: my attempt at correcting/normalizing the birth place to a modern geocodable location
+* `birthPlaceNormalized`: my attempt at normalizing the birth place to a modern geocodable location
 * `censusLocation`: the person's location as recorded in the census, often including a district name or number
 * `censusLocationCleaned`: my attempt at normalizing the census location to a modern geocodable location
 * `identifier`: a unique identifier for this record, expressed as a [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) [URN](https://en.wikipedia.org/wiki/Uniform_Resource_Name)
