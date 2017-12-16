@@ -2,7 +2,7 @@
 
 By 1940, there were over a thousand Sikh men, their spouses, and their children living in the United States, many of them mixed-race [Punjabi-Mexican](https://en.wikipedia.org/wiki/Punjabi_Mexican_Americans) families.
 
-This dataset **lists all 962 people with the last name "Singh" in the 1940 U.S. Census**. It's made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the [Berkeley South Asian Radical History Walking Tour](http://www.berkeleysouthasian.org/)
+This dataset **lists all 962 people with the last name "Singh" in the 1940 U.S. Census**. It's made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the [Berkeley South Asian Radical History Walking Tour](http://www.berkeleysouthasian.org/).
 
 ## Datasets
 
