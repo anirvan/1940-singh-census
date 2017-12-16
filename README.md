@@ -53,7 +53,7 @@ These fields are in the public domain. All of them come straight out of the U.S.
 * `parents`: names of parents, father's name typically preceding mother's (in some cases, the parents will also be in the dataset; look for a person with that name in the same censusLocation)
 * `siblings`: names of siblings
 * `raceRecorded`: how the census taker recorded their race, often includes abbreviations, e.g. "White", "Black", "Hin", "H"
-* `raceRecordedNormalized`: my normalized version of the race (e.g. I turn "H", "Hi", and "Hin" into "Hindoo")
+* `raceRecordedNormalized`: my normalized version of the race (e.g. I turn "H", "Hi", and "Hin" into ["Hindoo"](https://en.wikipedia.org/wiki/Racial_classification_of_Indian_Americans))
 * `age`: age as of the date of the 1940 census, either an integer string like "21", or "<1" for children under 1 year of age
 * `birthYearApprox`: approximate birth year (calculated as the age subtracted from 1940)
 * `birthPlace`: the birthplace listed in the census, most often a country or US state, e.g. "India", "California, United States", "Sri Lanka", "Asia", "West Indian" (sic), "Inida" (sic)
