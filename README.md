@@ -9,6 +9,30 @@ There are two versions of this data, both encoded as standard JSON:
 * `1940_singh_census_basic.json` is entirely in the public domain
 * `1940_singh_census_with_geodata.json` contains all the domain data, plus some [geodata from OpenStreetMap, licensed under ODBl](https://www.openstreetmap.org/copyright)
 
+## Example record
+
+```json
+{
+   "age" : "19",
+   "birthPlace" : "Oklahoma, United States",
+   "birthPlaceCleaned" : "Oklahoma, United States",
+   "birthYearApprox" : 1921,
+   "censusLocation" : "Sup D 3, Maricopa County, Arizona, United States",
+   "censusLocationCleaned" : "Maricopa County, Arizona, United States",
+   "children" : [
+      "Karlena",
+      "Jerry"
+   ],
+   "id" : 3470405613,
+   "inferredGroups" : [
+      "non-South Asian wife"
+   ],
+   "name" : "Mildred Singh",
+   "relationshipToHead" : "Wife",
+   "spouse" : "Rala Singh"
+}
+```
+
 ## Data dictionary
 
 ### Main fields
