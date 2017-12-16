@@ -2,7 +2,7 @@
 
 By 1940, there were over a thousand Sikh men, their spouses, and their children living in the United States, many of them mixed-race [Punjabi-Mexican](https://en.wikipedia.org/wiki/Punjabi_Mexican_Americans) families.
 
-This dataset **lists all 987 people with the last name "Singh" in the 1940 U.S. Census**. It's made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the [Berkeley South Asian Radical History Walking Tour](http://www.berkeleysouthasian.org/)
+This dataset **lists all 962 people with the last name "Singh" in the 1940 U.S. Census**. It's made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the [Berkeley South Asian Radical History Walking Tour](http://www.berkeleysouthasian.org/)
 
 ## Datasets
 
@@ -49,7 +49,7 @@ These fields are in the public domain. All of them come straight out of the U.S.
 * `birthYearApprox`: approximate birth year (calculated as the age subtracted from 1940)
 * `birthPlace`: the birthplace listed in the census, most often a country or US state, e.g. "India", "California, United States", "Sri Lanka", "Asia", "West Indian" (sic), "Inida" (sic)
 * `birthPlaceCleaned`: my attempt at correcting/normalizing the birth place to a modern geocodable location
-* `censusLocation`: the person's location as recorded in the census, often including a district name or number — watch out for all the people with location "Panama Canal"
+* `censusLocation`: the person's location as recorded in the census, often including a district name or number
 * `censusLocationCleaned`: my attempt at normalizing the census location to a modern geocodable location
 * `id`: a unique identifier for this record
 * `inferredGroups`: one or more of my attempts at categorizing people (current groups include "Panama Canal resident", "non-South Asian wife", "Mexican wife", "married Indian man", "married Indian man with kids", and "US-born child")
