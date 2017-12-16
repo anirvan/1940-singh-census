@@ -25,7 +25,7 @@ There are two versions of this data, both encoded as standard JSON:
       "Karlena",
       "Jerry"
    ],
-   "id" : 3470405613,
+   "identifier" : "urn:uuid:5B2CC64F-0DE6-39F4-845A-3640B23D7BEA",
    "inferredGroups" : [
       "non-South Asian wife"
    ],
