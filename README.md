@@ -61,4 +61,4 @@ The `1940_singh_census_with_geodata.json` file also contains extended geodata fo
 * `birthPlaceGeocodedData`: OpenStreetMap data for `birthPlaceCleaned`
 * `censusLocationGeocodedData`: OpenStreetMap data for `censusLocationCleaned`
 
-Almost every location in the dataset contains this geocoded data, except for two cases where the location is "West Indies," a location OpenStreetMap can't seem to resolve.
+Almost every location in the dataset contains this geocoded data, except for two cases where a person's birthplace is "[West Indies](https://en.wikipedia.org/wiki/West_Indies)," a location OpenStreetMap can't seem to resolve. (Maybe I should have resolved that to "Haiti" and just called it a day?)
