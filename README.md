@@ -51,7 +51,7 @@ These fields are in the public domain. All of them come straight out of the U.S.
 * `birthPlaceCleaned`: my attempt at correcting/normalizing the birth place to a modern geocodable location
 * `censusLocation`: the person's location as recorded in the census, often including a district name or number
 * `censusLocationCleaned`: my attempt at normalizing the census location to a modern geocodable location
-* `id`: a unique identifier for this record
+* `identifier`: a unique identifier for this record, expressed as a [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) [URN](https://en.wikipedia.org/wiki/Uniform_Resource_Name)
 * `inferredGroups`: one or more of my attempts at categorizing people (current groups include "Panama Canal resident", "non-South Asian wife", "Mexican wife", "married Indian man", "married Indian man with kids", and "US-born child")
 
 ### OpenStreetMap geographic data
