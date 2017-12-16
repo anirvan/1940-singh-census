@@ -1,6 +1,8 @@
 # The 1940 Singh Census
 
-This is a dataset of 987 people with the last name "Singh" in the 1940 U.S. Census, made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the [Berkeley South Asian Radical History Walking Tour](http://www.berkeleysouthasian.org/).
+By 1940, there were over a thousand Sikh men, their spouses, and their children living in the United States, many of them mixed-race [Punjabi-Mexican](https://en.wikipedia.org/wiki/Punjabi_Mexican_Americans) families.
+
+This dataset **lists all 987 people with the last name "Singh" in the 1940 U.S. Census**. It's made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the [Berkeley South Asian Radical History Walking Tour](http://www.berkeleysouthasian.org/)
 
 ## Datasets
 
