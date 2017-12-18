@@ -1,15 +1,15 @@
 # The 1940 Singh Census
 
-By 1940, there were over a thousand Sikh men, their spouses, and their children living in the United States, many of them mixed-race [Punjabi-Mexican](https://en.wikipedia.org/wiki/Punjabi_Mexican_Americans) families.
+By 1940, there were over a thousand [Sikh](https://en.wikipedia.org/wiki/Sikh) immigrants, their spouses, and their children living in the United States. Most of the families were mixed-race, with many part of the [Punjabi-Mexican](https://en.wikipedia.org/wiki/Punjabi_Mexican_Americans) community. The majority of these immigrant Sikh men had the [last name Singh](https://en.wikipedia.org/wiki/Singh).
 
-This dataset **lists all 962 people with the last name "Singh" in the 1940 U.S. Census**. It's made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the [Berkeley South Asian Radical History Walking Tour](http://www.berkeleysouthasian.org/).
+This dataset **lists all 962 people with the last name "Singh" in the 1940 U.S. Census**, covering a wide cross-section of [Sikh Americans](https://en.wikipedia.org/wiki/Sikhism_in_the_United_States). It's made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the [Berkeley South Asian Radical History Walking Tour](http://www.berkeleysouthasian.org/).
 
 ## Datasets
 
 There are two versions of this data, both encoded as standard JSON:
 
 * `1940_singh_census_basic.json` is entirely in the public domain
-* `1940_singh_census_with_geodata.json` contains all the domain data, plus some [geodata from OpenStreetMap, licensed under ODBl](https://www.openstreetmap.org/copyright)
+* `1940_singh_census_with_geodata.json` contains all the public domain data, plus geodata from [OpenStreetMap](https://www.openstreetmap.org/), licensed under the [ODBl](https://www.openstreetmap.org/copyright)
 
 ## Example record
 
