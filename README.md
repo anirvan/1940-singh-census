@@ -1,8 +1,10 @@
 # The 1940 Singh Census
 
-By 1940, there were over a thousand [Sikh](https://en.wikipedia.org/wiki/Sikh) immigrants, their spouses, and their children living in the United States. Most of the families were mixed-race, with many part of the [Punjabi-Mexican](https://en.wikipedia.org/wiki/Punjabi_Mexican_Americans) community. The majority of these immigrant Sikh men had the [last name Singh](https://en.wikipedia.org/wiki/Singh).
+By 1940, there were over a thousand [Sikh](https://en.wikipedia.org/wiki/Sikh) immigrants, their spouses, and their children living in the United States. Most of the families were mixed-race, with many part of the [Punjabi-Mexican](https://en.wikipedia.org/wiki/Punjabi_Mexican_Americans) community. The majority of these immigrant Sikh men had the last name [Singh](https://en.wikipedia.org/wiki/Singh).
 
-This dataset **lists all 962 people with the last name "Singh" in the 1940 U.S. Census**, covering a wide cross-section of [Sikh Americans](https://en.wikipedia.org/wiki/Sikhism_in_the_United_States). It's made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the [Berkeley South Asian Radical History Walking Tour](http://www.berkeleysouthasian.org/).
+This dataset **lists all 962 people with the last name "Singh" in the 1940 U.S. Census**, covering a wide cross-section of [Sikh Americans](https://en.wikipedia.org/wiki/Sikhism_in_the_United_States).
+
+It's made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the [Berkeley South Asian Radical History Walking Tour](http://www.berkeleysouthasian.org/).
 
 ## Datasets
 
