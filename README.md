@@ -11,7 +11,7 @@ It's made available by [Anirvan Chatterjee](http://www.chatterjee.net/) from the
 There are two versions of this data, both encoded as standard JSON:
 
 * `1940_singh_census_basic.json` is entirely in the public domain
-* `1940_singh_census_with_geodata.json` contains all the public domain data, plus geodata from [OpenStreetMap](https://www.openstreetmap.org/), licensed under the [ODBl](https://www.openstreetmap.org/copyright)
+* `1940_singh_census_with_geodata.json` contains all the public domain data, plus geodata from [OpenStreetMap](https://www.openstreetmap.org/), licensed under the [ODbL](https://www.openstreetmap.org/copyright)
 
 ## Example record
 
